@@ -6,6 +6,7 @@ import { useSendPasswordResetEmail, useSignInWithEmailAndPassword } from 'react-
 import { ToastContainer, toast } from 'react-toastify';
 import GoogleLogin from '../GoogleLogin/GoogleLogin';
 import Loading from '../../Shared/Loading/Loading';
+import 'react-toastify/dist/ReactToastify.css'
 
 const Login = () => {
     const emailRef = useRef('');
@@ -84,7 +85,7 @@ const Login = () => {
             <p>Forget Password? <button className='btn btn-link text-primary pe-auto text-decoration-none' onClick={resetPassword}>Reset Password</button> </p>
             {errorElement}
             <GoogleLogin></GoogleLogin>
-            <ToastContainer></ToastContainer>
+            <ToastContainer />
         </div>
     );
 };

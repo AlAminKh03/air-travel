@@ -3,21 +3,26 @@ import { useSignInWithGoogle } from 'react-firebase-hooks/auth';
 import { useNavigate } from 'react-router-dom';
 import auth from '../../../firebase.init';
 import google from "../../../picture/google.png"
+import Loading from '../../Shared/Loading/Loading';
 
 const GoogleLogin = () => {
 
-    const [signInWithGoogle, user, error] = useSignInWithGoogle(auth);
+    const [signInWithGoogle, user, error, loading] = useSignInWithGoogle(auth);
     const navigate = useNavigate();
     let errorElement;
-
-
-    if (error) {
-        errorElement = <p className='text-danger'>Error: {error?.message} </p>
-    }
 
     if (user) {
         navigate('/home');
     }
+
+    if (error) {
+        errorElement = <p className='text-danger'>Error: {error?.message} </p>
+        // return <p className='text-danger'>Error: {error?.message}</p>
+    }
+    if (loading) {
+        <Loading></Loading>
+    }
+
     return (
 
         <div>
