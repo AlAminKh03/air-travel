@@ -3,6 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import auth from '../../../firebase.init';
 import './Register.css'
+import GoogleLogin from '../GoogleLogin/GoogleLogin';
 
 const Register = () => {
     const [
@@ -21,7 +22,7 @@ const Register = () => {
 
     const handleRegister = event => {
         event.preventDefault();
-        const name = event.target.name.value;
+        // const name = event.target.name.value;
         const email = event.target.email.value;
         const password = event.target.password.value;
 
@@ -40,6 +41,8 @@ const Register = () => {
                 <input type="submit" value="Register" />
             </form>
             <p>Already have an account? <Link to="/login" className='text-danger pe-auto text-decoration-none' onClick={navigateLogin}>Please Login</Link> </p>
+
+            <GoogleLogin></GoogleLogin>
         </div>
     );
 };
