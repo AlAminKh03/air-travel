@@ -2,37 +2,37 @@
     {
         "id": "1",
         "name": "Passport Process",
-        "img": "../src/images/services/passport.jpg",
-        "description": ""
+        "picture": "./images/services/01.jpg",
+        "description": "If you're 18 years old and have a NID and still don't have a passport or if you aare here to renew your passport , You're in the right place"
     },
     {
         "id": "2",
         "name": "Visa Proccess",
-        "img": "../src/images/services/Visa1.png",
-        "description": ""
+        "picture": "./images/services/02.png",
+        "description": "Want to go to abroad??Need a visa approval?we got you."
     },
     {
         "id": "3",
         "name": "Have a tour",
-        "img": "../src/images/services/tourist.jpg",
-        "description": ""
+        "picture": "./images/services/03.jpg",
+        "description": "Vacation? Ahhh a havenly word,We can suggest you some Place also book your plan tooo"
     },
     {
         "id": "4",
         "name": " Travel Insurance",
-        "img": "../src/images/services/travel-insurance.jpg",
-        "description": ""
+        "picture": "./images/services/04.jpg",
+        "description": "Got trouble? No worries we got you. we have insurance plan according every possible way "
     },
     {
         "id": "5",
         "name": "Your Tour Guide",
-        "img": "../src/images/services/guide.png",
-        "description": ""
+        "picture": "./images/services/05.png",
+        "description": "This service is only for inside of country. Are you tired of Google map? Then we can give you a reac guide."
     },
     {
         "id": "6",
         "name": "Our Health policy",
-        "img": "../src/images/services/health.jpg",
-        "description": ""
+        "picture": "./images/services/06.jpg",
+        "description": "This is Covid era, we have everything to cover yourself. Join our Health program to ensure your safety"
     }
 ]
