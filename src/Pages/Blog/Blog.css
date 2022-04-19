@@ -1,0 +1,9 @@
+.blog {
+    width: 75%;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: antiquewhite;
+    border: 1px solid goldenrod;
+    border-radius: 20px;
+}
