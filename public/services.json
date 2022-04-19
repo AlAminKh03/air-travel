@@ -3,17 +3,20 @@
         "id": "1",
         "name": "Passport Process",
         "picture": "./images/services/01.jpg",
+        "price": 10000,
         "description": "If you're 18 years old and have a NID and still don't have a passport or if you aare here to renew your passport , You're in the right place"
     },
     {
         "id": "2",
         "name": "Visa Proccess",
+        "price": 10000,
         "picture": "./images/services/02.png",
         "description": "Want to go to abroad??Need a visa approval?we got you."
     },
     {
         "id": "3",
         "name": "Have a tour",
+        "price": 10000,
         "picture": "./images/services/03.jpg",
         "description": "Vacation? Ahhh a havenly word,We can suggest you some Place also book your plan tooo"
     },
@@ -21,18 +24,21 @@
         "id": "4",
         "name": " Travel Insurance",
         "picture": "./images/services/04.jpg",
+        "price": 10000,
         "description": "Got trouble? No worries we got you. we have insurance plan according every possible way "
     },
     {
         "id": "5",
         "name": "Your Tour Guide",
         "picture": "./images/services/05.png",
+        "price": 10000,
         "description": "This service is only for inside of country. Are you tired of Google map? Then we can give you a reac guide."
     },
     {
         "id": "6",
         "name": "Our Health policy",
         "picture": "./images/services/06.jpg",
+        "price": 10000,
         "description": "This is Covid era, we have everything to cover yourself. Join our Health program to ensure your safety"
     }
 ]

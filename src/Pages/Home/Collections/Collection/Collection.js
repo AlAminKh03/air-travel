@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const Collection = ({ collection }) => {
     const { name, description, price, img } = collection
     return (
@@ -11,7 +12,7 @@ const Collection = ({ collection }) => {
                     <h5 className="card-title">{name}</h5>
                     <p className="card-text">Price:{price}/Per Day</p>
                     <p className="card-text">{description}</p>
-                    <a href="#" className="btn btn-primary">Go somewhere</a>
+                    <a href="#" className="btn btn-primary">Let's Go</a>
                 </div>
             </div>
         </div>
