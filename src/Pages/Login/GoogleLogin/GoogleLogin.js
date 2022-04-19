@@ -7,7 +7,7 @@ import Loading from '../../Shared/Loading/Loading';
 
 const GoogleLogin = () => {
 
-    const [signInWithGoogle, user, error, loading] = useSignInWithGoogle(auth);
+    const [signInWithGoogle, user, loading, error] = useSignInWithGoogle(auth);
     const navigate = useNavigate();
     let errorElement;
 
@@ -17,6 +17,7 @@ const GoogleLogin = () => {
 
     if (error) {
         errorElement = <p className='text-danger'>Error: {error?.message} </p>
+        console.log(error)
         // return <p className='text-danger'>Error: {error?.message}</p>
     }
     if (loading) {
