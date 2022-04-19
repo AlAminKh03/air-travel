@@ -5,7 +5,8 @@ import img3 from "../../../../picture/package/sajek.jpg"
 import img4 from "../../../../picture/package/shylhet.jpg"
 import img5 from "../../../../picture/package/st-martin.jpg"
 import img6 from "../../../../picture/package/sundarban.jpg"
-import Collection from '../Package/Collection';
+import Collection from "../Collection/Collection"
+import "./Collections.css"
 
 const Collections = () => {
     const collections = [
@@ -24,10 +25,11 @@ const Collections = () => {
 
     return (
         <div id="packages" className='container'>
-            <h1 className='text-primary text-center mt-5'>Our Packages</h1>
-            <div >
+            <h1 className='text-primary text-center mt-5 mb-5'>Our Packages</h1>
+            <div className='collections-container'>
                 {
                     collections.map(collection => <Collection
+
                         key={collection.id}
                         collection={collection}
                     ></Collection>)

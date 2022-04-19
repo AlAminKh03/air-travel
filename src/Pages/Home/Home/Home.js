@@ -1,6 +1,6 @@
 import React from 'react';
 import Banner from '../Banner/Banner';
-import Collections from '../packages/Collection/Collections';
+import Collections from '../Collections/Collections/Collections';
 import Services from '../Services/Services';
 
 const Home = () => {

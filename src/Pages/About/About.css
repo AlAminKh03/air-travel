@@ -1,0 +1,24 @@
+.about-container {
+    display: flex;
+    width: 75%;
+    margin: auto;
+    padding: 30px;
+}
+
+.about-img {
+    width: 400px;
+}
+
+.about-img img {
+    width: 150px;
+    height: 170px;
+    margin: auto;
+}
+
+.about {
+    background-color: rgb(217, 175, 255);
+    margin: 0px 30px 30px 30px;
+    padding: 20px;
+    border: 2px dotted blueviolet;
+    border-radius: 20px;
+}
